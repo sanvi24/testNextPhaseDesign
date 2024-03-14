@@ -11,7 +11,7 @@ import Followers from "./followers.svg";
 import Conversion from "./conversation (1).svg";
 import HPLogo from "./1024px-HP_logo_2012.svg.png";
 import Edit from "./edit.svg";
-import AccountImg from "./AccountImage.png";
+import AccountIcon from "./AccountImage.png";
 import GoBack from "./go-back-left-arrow.svg";
 
 export {
@@ -28,6 +28,6 @@ export {
   Conversion, 
   HPLogo,
   Edit,
-  AccountImg,
+  AccountIcon,
   GoBack
 };

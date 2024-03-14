@@ -1,9 +1,7 @@
 import React from "react";
 import { RestartRaise, MenuBar, OpenMenu } from "../../assets";
-import { useNavigate } from "react-router-dom";
 
 const Header = () => {
-  const navigate = useNavigate();
   const navItems = [
     {
       name: "DASHBOARD",

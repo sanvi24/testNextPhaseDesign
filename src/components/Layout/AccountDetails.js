@@ -28,7 +28,7 @@ const AccountDetails = () => {
         />
       </div>
       <div>
-        <a className="text-sm text-blue-500 font-semibold">Change Password</a>
+        <div className="text-sm text-blue-500 font-semibold">Change Password</div>
       </div>
 
     </div>

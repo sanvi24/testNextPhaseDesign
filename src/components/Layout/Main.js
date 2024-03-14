@@ -1,5 +1,5 @@
 import React from "react";
-import { Edit, AccountImg, GoBack } from "../../assets";
+import { Edit, AccountIcon, GoBack } from "../../assets";
 import AccountDetails from "./AccountDetails";
 
 const Main = () => {
@@ -24,8 +24,8 @@ const Main = () => {
           <div className="p-4 border-2 border-t-0 border-[#EBEDF2]">
             <div className="flex space-x-12">
               <img
-                src={AccountImg}
-                alt="acc-image"
+                src={AccountIcon}
+                alt="accounticon"
                 className="w-28 h-32 rounded-full"
               />
               <div className="flex-col space-y-2">

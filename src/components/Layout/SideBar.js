@@ -2,7 +2,6 @@ import React from "react";
 import {
   Collaboration,
   Profile,
-  Collapse,
   Dashboard,
   Jobs,
   EnterPrise,
