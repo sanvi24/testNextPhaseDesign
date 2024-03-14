@@ -5,11 +5,9 @@ import AccountDetails from "./AccountDetails";
 const Main = () => {
   return (
     <div className="flex-col bg-[#f1f2f7] pt-4 pb-2">
-      <div className="p-2 px-5">
-        <div>
-          <spa className="text-gray-400 font-semibold">Dashboard</spa> |{" "}
-          <span className="text-blue-400">My Account</span>
-        </div>
+      <div className="hidden sm:block p-2 px-5">
+        <spa className="text-gray-400 font-semibold">Dashboard</spa> |{" "}
+        <span className="text-blue-400">My Account</span>
       </div>
       <div className="flex  space-x-4 pt-3 bg-white mx-4 py-2 h-12 px-4">
         <img src={GoBack} alt="go-back" className="w-5 h-5" />
@@ -76,14 +74,26 @@ const Main = () => {
               </div>
               <div className="space-y-2 px-4 py-0">
                 <div className="space-x-2">
-                  <input type="radio" />
-                  <label>Only on my dashboard</label>
+                  <input
+                    type="radio"
+                    id="radioDashboard"
+                    name="notificationPreference"
+                    className="form-radio bg-[#99CA3B]"
+                  />
+                  <label htmlFor="radioDashboard">Only on my dashboard</label>
                 </div>
                 <div className="space-x-2">
-                  <input type="radio" />
-                  <label>Email and on my dashboard</label>
+                  <input
+                    type="radio"
+                    id="radioEmailDashboard"
+                    name="notificationPreference"
+                  />
+                  <label htmlFor="radioEmailDashboard">
+                    Email and on my dashboard
+                  </label>
                 </div>
               </div>
+
               <div className="p-2 px-2 text-sm text-gray-400">
                 *Please note, this setting will not impact your old job postings
               </div>

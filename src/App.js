@@ -1,11 +1,12 @@
 import "./App.css";
 import { Outlet } from "react-router-dom";
-import { Footer, Header } from "./components";
+import { Footer, Header, MobileViewHeader } from "./components";
 
 function App() {
   return (
     <div className="">
       <Header />
+      <MobileViewHeader />
       <Outlet />
       <Footer />
     </div>

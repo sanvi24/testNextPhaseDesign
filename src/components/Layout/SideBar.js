@@ -1,47 +1,9 @@
 import React from "react";
-import {
-  Collaboration,
-  Profile,
-  Dashboard,
-  Jobs,
-  EnterPrise,
-  Followers,
-  Conversion,
-  HPLogo,
-} from "../../assets";
+import { HPLogo } from "../../assets";
 import SideBarInput from "./SideBarInput";
+import { SideBarNameAndIcon } from "../../Constant";
 
 const SideBar = () => {
-  const SideBarNameAndIcon = [
-    {
-      img: Dashboard,
-      name: "Dashboard",
-    },
-    {
-      img: Jobs,
-      name: "Jobs",
-    },
-    {
-      img: Profile,
-      name: "Applications",
-    },
-    {
-      img: Followers,
-      name: "Followers",
-    },
-    {
-      img: EnterPrise,
-      name: "Company Profile",
-    },
-    {
-      img: Collaboration,
-      name: "All Users",
-    },
-    {
-      img: Conversion,
-      name: "My Account",
-    },
-  ];
   return (
     <div className="flex flex-col bg-[#404040] w-72 h-full justify-between">
       <div>
